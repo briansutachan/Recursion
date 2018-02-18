@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.board{
+    margin-top: 4;
+
+}
+
+.row{
+    display: flex;
+    width: 40vw;
+    height: auto;
+
+}
+
+
+.col{
+
+    border: 1px solid black;
+    flex: 1;
+    min-height: 25vh;
+    text-align: center;
+    line-height: 25vh;
+    font-size: 48px;
+    background-color: rgb(255, 255, 255)
+       
+}
